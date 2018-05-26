@@ -8,6 +8,8 @@ A pure CSS base to make a responsive user interface.
 * No extra buttons
 * Easy to install
 
+[Demo](https://lcfvs.github.io/css-ui/)
+
 ## Install
 
 ### Using NPM
