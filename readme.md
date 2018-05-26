@@ -23,3 +23,7 @@ A pure CSS base to make a responsive user interface.
 ## License
 
 [MIT](https://github.com/Lcfvs/css-ui/blob/master/licence.md)
+
+## Contributions
+
+A special thanks to [ascito](https://github.com/ascito) for some improvements. =)
