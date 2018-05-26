@@ -1,0 +1,25 @@
+{
+  "name": "@lcf.vs/css-ui",
+  "version": "1.0.0",
+  "description": "A pure CSS base to make a responsive user interface",
+  "main": "css-ui.min.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lcfvs/css-ui.git"
+  },
+  "keywords": [
+    "pure",
+    "css",
+    "ui",
+    "responsive"
+  ],
+  "author": "lcf.vs <michael.rouges@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lcfvs/css-ui/issues"
+  },
+  "homepage": "https://github.com/Lcfvs/css-ui#readme"
+}
