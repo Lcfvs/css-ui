@@ -16,7 +16,9 @@ A pure CSS base to make a responsive user interface.
 `npm install @lcf.vs/css-ui --prefix site-dir/assets/css`
 
 ### Using a CDN
-`https://cdn.rawgit.com/Lcfvs/css-ui/1.0.0/demos/index.html`
+```html
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/1.0.0/css-ui.min.css" media="screen" rel="stylesheet" /> 
+```
 
 ## License
 
