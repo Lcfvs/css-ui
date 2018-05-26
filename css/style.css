@@ -1,0 +1,42 @@
+@import "../../css-ui.min.css";
+@import "fonts.css";
+@import "icons.css";
+
+body {
+    font-family: OpenSans, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+body > header {
+    background: rgba(204, 204, 255, 1);
+}
+
+main > section {
+    min-height: 20em;
+    background: rgba(204, 204, 255, 1);
+}
+
+body > nav ol:first-of-type {
+    background: rgba(0, 0, 34, 1);
+}
+
+body > nav li {
+    border-bottom: .063em solid rgba(255, 255, 255, .3);
+}
+
+body > nav ol:first-of-type a {
+    color: rgba(204, 204, 255, 1);
+}
+
+body > nav ol:first-of-type a:hover {
+    background: rgba(255, 255, 255, .3);
+}
+
+body > nav a:before {
+    color: rgba(204, 204, 255, 1);
+}
+
+@media screen and (min-width: 50em) and (min-height: 40em) {
+    main > section {
+        width: 20em;
+    }
+}
