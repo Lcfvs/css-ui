@@ -169,6 +169,10 @@ main > section > * {
         min-width: 2.5em;
     }
 
+    body > nav > ol:first-of-type:active {
+        width: 2.5em;
+    }
+
     body > nav ol:first-of-type:active:before {
         content: none;
     }
