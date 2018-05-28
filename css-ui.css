@@ -52,9 +52,8 @@ body > header {
 
 body > header > h1 {
     position: fixed;
-    left: 2em;
-    top: .5em;
-    line-height: 1.5em;
+    left: 3em;
+    line-height: 2.5em;
 }
 
 body > nav {
@@ -62,14 +61,18 @@ body > nav {
     width: 0;
     background: rgba(0, 0, 0, .6);
     height: calc(100vh - 2.5em);
+    left: 0;
 }
 
 body > nav:before {
     content: '☰';
     position: absolute;
-    top: -2em;
-    left: .5em;
+    top: -2.5em;
     cursor: pointer;
+    display: block;
+    width: 2.5em;
+    text-align: center;
+    line-height: 2.5em;
 }
 
 body > nav ol:first-of-type {
@@ -100,10 +103,10 @@ body > nav ol:first-of-type:hover:before, body > nav:focus ol:first-of-type:befo
 
 body > nav:focus:before {
     content: '⬅';
-    font-size: 1.5em;
-    padding-top: .5em;
-    left: .2em;
     pointer-events: none;
+    width: 1.65em;
+    padding-top: .45em;
+    left: 0;
 }
 
 body > nav > ol:first-of-type:hover, body > nav:focus > ol:first-of-type {
@@ -153,4 +156,19 @@ main > section {
 
 main > section > * {
     text-align: left;
+}
+
+@media screen and (min-width: 50em) and (min-height: 40em) {
+    body {
+        width: calc(100vw - 2.5em);
+        margin-left: 2.5em;
+    }
+
+    body > nav > ol:first-of-type {
+        min-width: 2.5em;
+    }
+
+    body > nav > ol:first-of-type a {
+        padding: .5em;
+    }
 }
