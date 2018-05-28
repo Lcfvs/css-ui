@@ -110,18 +110,17 @@ body > nav > ol:first-of-type:hover, body > nav:focus > ol:first-of-type {
     overflow-x: hidden;
     max-width: calc(100vw - 5em);
     width: 20em;
-    padding: .5em;
 }
 
 body > nav a {
     display: block;
 }
 
-body > nav ol:first-of-type a {
+body > nav > ol:first-of-type a {
     padding: .7em;
 }
 
-body > nav ol:first-of-type a:before {
+body > nav > ol:first-of-type a:before {
     width: 1.5em;
     display: inline-block;
     text-align: center;
