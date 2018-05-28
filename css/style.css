@@ -39,8 +39,8 @@ body > nav ol:first-of-type a:hover {
 }
 
 @media screen and (min-width: 50em) and (min-height: 40em) {
-    body > nav ol:first-of-type {
-        min-width: 2.7em;
+    body > nav > ol:first-of-type a {
+        padding: .5em;
     }
 
     main > section {

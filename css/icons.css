@@ -2,10 +2,6 @@ body > nav a:before {
     font-family: FontAwesome5Free;
 }
 
-body > nav:before, body > nav ol:first-of-type:before {
-    font-family: FontAwesome5Free;
-}
-
 body > nav .home:before {
     content: "";
 }
