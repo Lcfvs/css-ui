@@ -84,7 +84,7 @@ body > nav ol:first-of-type {
     z-index: 1;
 }
 
-body > nav ol:first-of-type:hover:before, body > nav:focus ol:first-of-type:before {
+body > nav ol:first-of-type:active:before, body > nav:focus ol:first-of-type:before {
     content: '✖';
     height: 100%;
     width: 1em;
@@ -109,7 +109,7 @@ body > nav:focus:before {
     left: 0;
 }
 
-body > nav > ol:first-of-type:hover, body > nav:focus > ol:first-of-type {
+body > nav > ol:first-of-type:active, body > nav:focus > ol:first-of-type {
     overflow-x: hidden;
     max-width: calc(100vw - 5em);
     width: 20em;
