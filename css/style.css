@@ -3,6 +3,7 @@
 
 body {
     font-family: OpenSans, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background: rgba(245, 245, 255, 1);
 }
 
 body > header {
@@ -16,25 +17,32 @@ main > section {
 
 body > nav ol:first-of-type {
     background: rgba(0, 0, 34, 1);
+    white-space: nowrap;
 }
 
-body > nav li {
+body > nav > ol:first-of-type > li {
     border-bottom: .063em solid rgba(255, 255, 255, .3);
 }
 
-body > nav ol:first-of-type a {
+body > nav > ol:first-of-type a,
+body > nav > ol:first-of-type a:before {
     color: rgba(204, 204, 255, 1);
+}
+
+body > nav > ol:first-of-type a.current,
+body > nav > ol:first-of-type a.current:before {
+    color: rgba(91, 192, 190, 1);
 }
 
 body > nav ol:first-of-type a:hover {
     background: rgba(255, 255, 255, .3);
 }
 
-body > nav a:before {
-    color: rgba(204, 204, 255, 1);
-}
-
 @media screen and (min-width: 50em) and (min-height: 40em) {
+    body > nav ol:first-of-type {
+        min-width: 2.7em;
+    }
+
     main > section {
         width: 20em;
     }
