@@ -106,7 +106,8 @@ body > nav:focus:before {
     pointer-events: none;
     width: 1.65em;
     padding-top: .45em;
-    left: 0;
+    left: .1em;
+    font-size: 1.5em;
 }
 
 body > nav > ol:first-of-type:active, body > nav:focus > ol:first-of-type {
@@ -166,6 +167,10 @@ main > section > * {
 
     body > nav > ol:first-of-type {
         min-width: 2.5em;
+    }
+
+    body > nav ol:first-of-type:active:before {
+        content: none;
     }
 
     body > nav > ol:first-of-type a {
