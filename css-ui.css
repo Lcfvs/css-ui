@@ -75,16 +75,16 @@ body > nav:before {
     line-height: 2.5em;
 }
 
-body > nav ol:first-of-type {
+body > nav > ol:first-of-type {
     position: fixed;
     height: 100%;
-    width: 0;
-    overflow-x: hidden;
+    width: auto;
     display: inline-block;
     z-index: 1;
+    max-width: calc(100vw - 5em);
 }
 
-body > nav ol:first-of-type:active:before, body > nav:focus ol:first-of-type:before {
+body > nav > ol:first-of-type:active:before, body > nav:focus > ol:first-of-type:before {
     content: '✖';
     height: 100%;
     width: 1em;
@@ -110,21 +110,21 @@ body > nav:focus:before {
     font-size: 1.5em;
 }
 
-body > nav > ol:first-of-type:active, body > nav:focus > ol:first-of-type {
-    overflow-x: hidden;
-    max-width: calc(100vw - 5em);
-    width: 20em;
-}
-
-body > nav a {
+body > nav > ol:first-of-type > li > a {
     display: block;
+    width: 0;
+    min-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
-body > nav > ol:first-of-type a {
+body > nav > ol:active:first-of-type > li > a,
+body > nav:focus > ol:first-of-type > li > a {
+    width: 15em;
     padding: .7em;
 }
 
-body > nav > ol:first-of-type a:before {
+body > nav > ol:first-of-type > li > a:before {
     width: 1.5em;
     display: inline-block;
     text-align: center;
@@ -148,6 +148,7 @@ main > h1 {
     margin-bottom: 1em;
 }
 
+main > article,
 main > section {
     display: inline-block;
     margin: .5em;
@@ -165,19 +166,30 @@ main > section > * {
         margin-left: 2.5em;
     }
 
-    body > nav > ol:first-of-type {
-        min-width: 2.5em;
-    }
-
-    body > nav > ol:first-of-type:active {
-        width: 2.5em;
-    }
-
-    body > nav ol:first-of-type:active:before {
+    body > nav > ol:first-of-type:active:before {
         content: none;
     }
 
-    body > nav > ol:first-of-type a {
+    body > nav > ol:first-of-type > li > a {
         padding: .5em;
+    }
+
+    body > nav > ol:first-of-type > li > a {
+        padding: .5em;
+        width: 2.5em;
+    }
+
+    body > nav > ol:active:first-of-type > li > a,
+    body > nav:focus > ol:first-of-type > li > a {
+        padding: .5em;
+    }
+
+    body > nav:not(:focus) > ol:first-of-type:active {
+        width: 2.5em;
+    }
+
+    body > nav:not(:focus) > ol:first-of-type:active > li > a {
+        color: transparent;
+        background: transparent;
     }
 }
