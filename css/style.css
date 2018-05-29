@@ -17,7 +17,6 @@ main > section {
 
 body > nav ol:first-of-type {
     background: rgba(0, 0, 34, 1);
-    white-space: nowrap;
 }
 
 body > nav > ol:first-of-type > li {
@@ -39,10 +38,6 @@ body > nav ol:first-of-type a:hover {
 }
 
 @media screen and (min-width: 50em) and (min-height: 40em) {
-    body > nav > ol:first-of-type a {
-        padding: .5em;
-    }
-
     main > section {
         width: 20em;
     }
