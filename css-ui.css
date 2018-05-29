@@ -120,7 +120,8 @@ body > nav > ol:first-of-type > li > a {
 
 body > nav > ol:active:first-of-type > li > a,
 body > nav:focus > ol:first-of-type > li > a {
-    width: 15em;
+    width: 20em;
+    max-width: calc(100vw - 5em);
     padding: .7em;
 }
 
@@ -148,15 +149,11 @@ main > h1 {
     margin-bottom: 1em;
 }
 
-main > article,
-main > section {
+main > * {
     display: inline-block;
     margin: .5em;
     padding: .5em;
     width: calc(100% - 1em);
-}
-
-main > section > * {
     text-align: left;
 }
 
