@@ -116,20 +116,28 @@ body > nav > ol:first-of-type > li > a {
     min-width: 100%;
     white-space: nowrap;
     overflow: hidden;
+    line-height: 3em;
 }
 
 body > nav > ol:active:first-of-type > li > a,
 body > nav:focus > ol:first-of-type > li > a {
     width: 20em;
     max-width: calc(100vw - 5em);
-    padding: .7em;
 }
 
 body > nav > ol:first-of-type > li > a:before {
-    width: 1.5em;
+    width: 2.5em;
     display: inline-block;
     text-align: center;
-    margin-right: .5em;
+}
+
+body > nav > ol:first-of-type > li > a:focus,
+body > nav > ol:first-of-type > li > a:hover {
+    background: rgba(255, 255, 255, .3);
+}
+
+body > nav > ol:first-of-type > li > a:focus:before {
+    line-height: 3em;
 }
 
 main {
@@ -168,17 +176,7 @@ main > * {
     }
 
     body > nav > ol:first-of-type > li > a {
-        padding: .5em;
-    }
-
-    body > nav > ol:first-of-type > li > a {
-        padding: .5em;
         width: 2.5em;
-    }
-
-    body > nav > ol:active:first-of-type > li > a,
-    body > nav:focus > ol:first-of-type > li > a {
-        padding: .5em;
     }
 
     body > nav:not(:focus) > ol:first-of-type:active {
