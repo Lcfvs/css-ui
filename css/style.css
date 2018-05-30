@@ -37,10 +37,6 @@ body > nav > ol:first-of-type a.current:before {
     color: rgba(91, 192, 190, 1);
 }
 
-body > nav ol:first-of-type a:hover {
-    background: rgba(255, 255, 255, .3);
-}
-
 @media screen and (min-width: 50em) and (min-height: 40em) {
     main > section {
         width: 20em;
