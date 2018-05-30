@@ -181,7 +181,8 @@ main > * {
         width: 2.5em;
     }
 
-    body > nav:not(:focus) > ol:first-of-type:active {
+    body > nav:not(:focus) > ol:first-of-type:active,
+    body > nav:not(:focus) > ol:first-of-type > li > a {
         width: 2.5em;
     }
 
