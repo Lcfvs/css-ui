@@ -106,7 +106,6 @@ body > nav:focus:before {
     pointer-events: none;
     width: 1.65em;
     padding-top: .45em;
-    left: .1em;
     font-size: 1.5em;
 }
 
@@ -177,17 +176,11 @@ main > * {
         content: none;
     }
 
-    body > nav > ol:first-of-type > li > a {
-        width: 2.5em;
-    }
-
-    body > nav:not(:focus) > ol:first-of-type:active,
     body > nav:not(:focus) > ol:first-of-type > li > a {
         width: 2.5em;
     }
 
-    body > nav:not(:focus) > ol:first-of-type:active > li > a {
-        color: transparent;
-        background: transparent;
+    body > nav:focus > ol:first-of-type {
+        pointer-events: initial;
     }
 }
