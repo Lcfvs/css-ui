@@ -116,14 +116,12 @@ body > nav > ol:first-of-type > li > a {
     white-space: nowrap;
     overflow: hidden;
     line-height: 3em;
-    transition: width .25s;
 }
 
 body > nav > ol:active:first-of-type > li > a,
 body > nav:focus > ol:first-of-type > li > a {
     width: 20em;
     max-width: calc(100vw - 5em);
-    transition: width .25s;
 }
 
 body > nav > ol:first-of-type > li > a:before {
@@ -176,7 +174,16 @@ main > * {
         content: none;
     }
 
-    body > nav:not(:focus) > ol:first-of-type > li > a {
-        min-width: 2.5em;
+    body > nav > ol:first-of-type > li > a {
+        width: 2.5em;
+    }
+
+    body > nav:not(:focus) > ol:first-of-type:active {
+        width: 2.5em;
+    }
+
+    body > nav:not(:focus) > ol:first-of-type:active > li > a {
+        color: transparent;
+        background: transparent;
     }
 }
