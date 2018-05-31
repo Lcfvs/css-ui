@@ -177,10 +177,6 @@ main > * {
     }
 
     body > nav:not(:focus) > ol:first-of-type > li > a {
-        width: 2.5em;
-    }
-
-    body > nav:focus > ol:first-of-type {
-        pointer-events: initial;
+        min-width: 2.5em;
     }
 }
