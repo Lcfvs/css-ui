@@ -116,12 +116,15 @@ body > nav > ol:first-of-type > li > a {
     white-space: nowrap;
     overflow: hidden;
     line-height: 3em;
+    background: transparent;
+    transition: background .5s;
 }
 
 body > nav > ol:active:first-of-type > li > a,
 body > nav:focus > ol:first-of-type > li > a {
     width: 20em;
     max-width: calc(100vw - 5em);
+    transition: width .25s
 }
 
 body > nav > ol:first-of-type > li > a:before {
