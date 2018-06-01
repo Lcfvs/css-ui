@@ -62,6 +62,7 @@ body > nav {
     background: rgba(0, 0, 0, .6);
     height: calc(100vh - 2.5em);
     left: 0;
+    top: 2.5em;
 }
 
 body > nav:before {
