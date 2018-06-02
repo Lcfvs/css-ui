@@ -8,7 +8,8 @@ a, abbr, acronym, address, article, aside, audio, b, big, blockquote, body, canv
     box-sizing: border-box;
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
@@ -16,7 +17,8 @@ a {
     text-decoration: none;
 }
 
-:active, :focus {
+:active,
+:focus {
     outline: none;
 }
 
@@ -35,7 +37,8 @@ body {
     height: calc(100vh - 2.5em);
 }
 
-body > header, body > nav {
+body > header,
+body > nav {
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -62,7 +65,7 @@ body > nav {
     background: rgba(0, 0, 0, .6);
     height: calc(100vh - 2.5em);
     left: 0;
-    top: 2.5em;
+    max-width: 20em;
 }
 
 body > nav:before {
@@ -83,9 +86,11 @@ body > nav > ol:first-of-type {
     display: inline-block;
     z-index: 1;
     max-width: calc(100vw - 5em);
+    overflow-x: visible;
 }
 
-body > nav > ol:first-of-type:active:before, body > nav:focus > ol:first-of-type:before {
+body > nav > ol:first-of-type:active:before,
+body > nav:focus > ol:first-of-type:before {
     content: '✖';
     height: 100%;
     width: 1em;
@@ -117,15 +122,13 @@ body > nav > ol:first-of-type > li > a {
     white-space: nowrap;
     overflow: hidden;
     line-height: 3em;
-    background: transparent;
-    transition: background .5s;
+    transition: width .25s;
 }
 
 body > nav > ol:active:first-of-type > li > a,
 body > nav:focus > ol:first-of-type > li > a {
     width: 20em;
     max-width: calc(100vw - 5em);
-    transition: width .25s
 }
 
 body > nav > ol:first-of-type > li > a:before {
@@ -137,6 +140,15 @@ body > nav > ol:first-of-type > li > a:before {
 body > nav > ol:first-of-type > li > a:focus,
 body > nav > ol:first-of-type > li > a:hover {
     background: rgba(255, 255, 255, .3);
+}
+
+body > nav > ol:first-of-type > li > a:active:after {
+    content: '';
+    width: 20em;
+    height: 3em;
+    display: inline-block;
+    position: absolute;
+    left: 0;
 }
 
 body > nav > ol:first-of-type > li > a:focus:before {
@@ -174,20 +186,7 @@ main > * {
         margin-left: 2.5em;
     }
 
-    body > nav > ol:first-of-type:active:before {
-        content: none;
-    }
-
-    body > nav > ol:first-of-type > li > a {
-        width: 2.5em;
-    }
-
-    body > nav:not(:focus) > ol:first-of-type:active {
-        width: 2.5em;
-    }
-
-    body > nav:not(:focus) > ol:first-of-type:active > li > a {
-        color: transparent;
-        background: transparent;
+    body > nav:not(:focus) > ol:first-of-type > li > a {
+        min-width: 2.5em;
     }
 }
