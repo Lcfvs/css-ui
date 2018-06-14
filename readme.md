@@ -56,3 +56,9 @@ A pure CSS base to make a responsive user interface.
 ## Contributions
 
 A special thanks to [ascito](https://github.com/ascito) for some improvements. =)
+
+## Compatibility
+
+<strong>PENDING</strong> Test & improve on Safari and IE
+
+All the compatibility tests are made on [<img height="36px" src="./Browserstack-logo.svg" />](https://www.browserstack.com)
