@@ -1,5 +1,5 @@
-@import "fonts.css";
-@import "icons.css";
+@import "./fonts.css";
+@import "./icons.css";
 
 body {
     font-family: OpenSans, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -41,4 +41,25 @@ body > nav > ol:first-of-type a.current:before {
     main > section {
         width: 20em;
     }
+}
+
+/* BrowserStack */
+
+body > footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 2.5em;
+    padding: .25em;
+    background-color: rgba(19, 35, 51, 1);
+}
+
+body > footer > a {
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+}
+
+body > footer > a > img {
+    height: 1.5em;
+    vertical-align: -20%;
 }
