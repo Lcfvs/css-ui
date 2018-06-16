@@ -138,3 +138,24 @@ and (min-width: 50em) {
         width: 3em;
     }
 }
+
+main {
+     display: table-cell;
+     vertical-align: middle;
+     text-align: center;
+     padding: 1em;
+     height: calc(100vh - 2.5em);
+}
+
+main > h1 {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+main > * {
+    display: inline-block;
+    margin: .5em;
+    padding: .5em;
+    width: calc(100% - 1em);
+    text-align: left;
+}
