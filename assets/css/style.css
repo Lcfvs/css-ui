@@ -3,7 +3,11 @@
 
 body {
     font-family: OpenSans, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    background: rgba(245, 245, 255, 1);
+    background: red;
+}
+
+main {
+    background: yellow;
 }
 
 body > header,
