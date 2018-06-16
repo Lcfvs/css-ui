@@ -3,9 +3,13 @@
 
 A pure CSS base to make a responsive user interface.
 
+* Accessible
+* Flexible
+* Classes/ids non-dependant
 * No JavaScript required
 * No non-semantic tags
-* No extra buttons
+* No hacks
+* No browser specific media queries
 * Easy to install
 
 [Demo](https://lcfvs.github.io/css-ui/)
@@ -17,7 +21,7 @@ A pure CSS base to make a responsive user interface.
 
 ### Using a CDN
 ```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/1.5.3/css-ui.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.0.0/css-ui.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 ```html
@@ -33,7 +37,9 @@ A pure CSS base to make a responsive user interface.
         <header>
             <h1>css-ui</h1>
         </header>
-        <nav tabindex="-1">
+        <nav>
+            <a href="javascript:" rel="noopener noreferrer" tabindex="1">☰</a>
+            <a href="javascript:" rel="noopener noreferrer" tabindex="-1">⬅</a>
             <ol>
                 <li><a href="/">Home</a></li>
             </ol>
@@ -59,6 +65,24 @@ A special thanks to [ascito](https://github.com/ascito) for some improvements. =
 
 ## Compatibility
 
-<strong>PENDING</strong> Test & improve on Safari and IE
+* PC
+    * Firefox
+    * Chrome
+    * IE 11
+    * Edge
+    * Opera
+    * Yandex
+
+* Mobile
+    * Firefox
+    * Chrome
+    * Safari
+    * Samsung
+    * UC Browser
+    
+* Mac
+    * Firefox
+    * Safari
+    * Chrome
 
 All the compatibility tests are made on [<img height="36px" src="./Browserstack-logo.svg" />](https://www.browserstack.com)
