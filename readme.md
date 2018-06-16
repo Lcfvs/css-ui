@@ -21,7 +21,7 @@ A pure CSS base to make a responsive user interface.
 
 ### Using a CDN
 ```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.0.2/css-ui.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.0.3/css-ui.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 ```html
