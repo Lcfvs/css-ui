@@ -6,7 +6,8 @@ body {
     background: rgba(245, 245, 255, 1);
 }
 
-body > header {
+body > header,
+body > nav > a {
     background: rgba(204, 204, 255, 1);
 }
 
