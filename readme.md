@@ -21,7 +21,7 @@ A pure CSS base to make a responsive user interface.
 
 ### Using a CDN
 ```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.0.5/css-ui.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.0.6/css-ui.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 ```html
@@ -38,8 +38,10 @@ A pure CSS base to make a responsive user interface.
             <h1>css-ui</h1>
         </header>
         <nav>
-            <a href="javascript:" rel="noopener noreferrer" tabindex="1">☰</a>
-            <a href="javascript:" rel="noopener noreferrer" tabindex="-1">⬅</a>
+            <!--googleoff: anchor-->
+            <a href="javascript:" tabindex="1">☰</a>
+            <a href="javascript:" tabindex="-1">⬅</a>
+            <!--googleon: anchor-->
             <ol>
                 <li><a href="/">Home</a></li>
             </ol>
