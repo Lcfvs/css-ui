@@ -14,6 +14,7 @@ A pure CSS base to make a responsive user interface.
 
 [Demo](https://lcfvs.github.io/css-ui/)
 
+
 ## Install
 
 ### Using NPM
@@ -21,7 +22,7 @@ A pure CSS base to make a responsive user interface.
 
 ### Using a CDN
 ```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.0.6/css-ui.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.0.7/css-ui.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 ```html
@@ -57,13 +58,35 @@ A pure CSS base to make a responsive user interface.
 </html>
 ```
 
+
+## Components
+
+### Menu
+
+#### Mini
+```html
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.0.7/css-ui/components/menu/mini.min.css" media="screen" rel="stylesheet" /> 
+```
+
+[Demo](https://lcfvs.github.io/css-ui/components/menu/mini.html)
+
+#### Expanded
+```html
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.0.7/css-ui/components/menu/expanded.min.css" media="screen" rel="stylesheet" /> 
+```
+
+[Demo](https://lcfvs.github.io/css-ui/components/menu/expanded.html)
+
+
 ## License
 
 [MIT](https://github.com/Lcfvs/css-ui/blob/master/licence.md)
 
+
 ## Contributions
 
 A special thanks to [ascito](https://github.com/ascito) for some improvements. =)
+
 
 ## Compatibility
 
@@ -86,5 +109,6 @@ A special thanks to [ascito](https://github.com/ascito) for some improvements. =
     * Firefox
     * Safari
     * Chrome
+    * Opera
 
 All the compatibility tests are made on [<img height="36px" src="./Browserstack-logo.svg" />](https://www.browserstack.com)
