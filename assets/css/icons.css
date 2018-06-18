@@ -1,4 +1,23 @@
 body > nav > ol > li > a:before {
-    content: "+";
-    font-weight: bold
+    font-family: FontAwesome5Free;
+}
+
+body > nav .home:before {
+    content: "";
+}
+
+body > nav .account:before {
+    content: "";
+}
+
+body > nav .musics:before {
+    content: "";
+}
+
+body > nav .files:before {
+    content: "";
+}
+
+body > nav .books:before {
+    content: "";
 }
