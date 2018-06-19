@@ -16,7 +16,7 @@ body > header > ol > li > a + ol + p {
     background: rgba(255, 255, 181, 1);
 }
 
-body > header > ol > li > a:first-of-type {
+body > header > ol > li > a {
     color: rgba(245, 245, 255, 1);
     font-size: 1.5em;
     line-height: 2em;
