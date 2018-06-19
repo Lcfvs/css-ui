@@ -1,6 +1,6 @@
 {
   "name": "@lcf.vs/css-ui",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A pure CSS base to make a responsive user interface",
   "main": "css-ui.min.css",
   "scripts": {
