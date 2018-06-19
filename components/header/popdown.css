@@ -1,4 +1,4 @@
-/* {"name":"css-ui","version":"2.1.0","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
+/* {"name":"css-ui","version":"2.1.1","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
 body > header > ol {
     float: right;
     height: 100%;
@@ -20,15 +20,13 @@ body > header > ol > li > a {
     top: 0;
 }
 
-body > header > ol > li > a:first-of-type {
-    z-index: 2;
-}
-
 body > header > ol > li > a:first-of-type:focus {
     pointer-events: none;
 }
 
-body > header > ol > li > a:first-of-type:focus + a + ol + p {
+body > header > ol > li > a:first-of-type,
+body > header > ol > li > a:first-of-type:focus + a + ol + p,
+body > header > ol > li > a:first-of-type:focus + a {
     z-index: 2;
 }
 
