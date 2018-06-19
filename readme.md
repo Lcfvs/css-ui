@@ -22,7 +22,7 @@ A pure CSS base to make a responsive user interface.
 
 ### Using a CDN
 ```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.0.7/css-ui.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.1.0/css-ui.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 ```html
@@ -65,18 +65,18 @@ A pure CSS base to make a responsive user interface.
 
 #### Mini
 ```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.0.7/css-ui/components/menu/mini.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.1.0/css-ui/components/menu/mini.min.css" media="screen" rel="stylesheet" /> 
 ```
-
-[Demo](https://lcfvs.github.io/css-ui/components/menu/mini.html)
 
 #### Expanded
 ```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.0.7/css-ui/components/menu/expanded.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.1.0/css-ui/components/menu/expanded.min.css" media="screen" rel="stylesheet" /> 
 ```
 
-[Demo](https://lcfvs.github.io/css-ui/components/menu/expanded.html)
-
+### Header popdowns
+```html
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.1.0/css-ui/components/header/popdown.min.css" media="screen" rel="stylesheet" /> 
+```
 
 ## License
 
