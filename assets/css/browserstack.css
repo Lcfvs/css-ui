@@ -1,1 +1,18 @@
+body > footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 2.5em;
+    padding: .25em;
+    background-color: rgba(19, 35, 51, 1);
+}
 
+body > footer > a {
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+}
+
+body > footer > a > img {
+    height: 1.5em;
+    vertical-align: -20%;
+}
