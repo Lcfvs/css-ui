@@ -20,10 +20,6 @@ body > header > ol > li > a {
     top: 0;
 }
 
-body > header > ol > li > a:first-of-type:focus {
-    pointer-events: none;
-}
-
 body > header > ol > li > a:first-of-type,
 body > header > ol > li > a:first-of-type:focus + a + ol + p,
 body > header > ol > li > a:first-of-type:focus + a {
