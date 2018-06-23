@@ -18,9 +18,6 @@ body > header > ol > li > a + ol + p {
 
 body > header > ol > li > a {
     color: rgba(245, 245, 255, 1);
-    font-size: 1.5em;
-    line-height: 2em;
-    width: 2em;
 }
 
 body > header > ol > li > ol > li > a {
