@@ -37,7 +37,6 @@ body > header > ol > li > ol:empty + p {
     position: relative;
     right: 12em;
     transition: max-height .2s .2s;
-    max-height: calc(100vh - 3.5em);
 }
 
 body > header > ol > li > ol {
