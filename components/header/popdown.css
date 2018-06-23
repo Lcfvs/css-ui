@@ -1,4 +1,4 @@
-/* {"name":"css-ui","version":"2.2.2","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
+/* {"name":"css-ui","version":"2.2.3","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
 body > header > ol {
     float: right;
     height: 100%;
@@ -28,15 +28,25 @@ body > header > ol > li > a:first-of-type:focus + a {
 
 body > header > ol > li > ol,
 body > header > ol > li > ol:empty + p {
-    margin-top: 3em;
-    right: 12em;
-    overflow-x: hidden;
-    overflow-y: auto;
-    line-height: 3em;
-    position: relative;
     width: 15em;
-    max-height: 0;
-    transition: max-height .2s .2s;
+    max-height: calc(100vh - 3.5em);
+    overflow-x: hidden;
+    line-height: 3em;
+    top: 3em;
+    position: absolute;
+    margin-left: -12em;
+    -webkit-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: top;
+    -o-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    -webkit-transition: -webkit-transform .2s .2s;
+    -o-transition: -o-transform .2s .2s;
+    -ms-transition: -ms-transform .2s .2s;
+    transition: transform .2s .2s;
 }
 
 body > header > ol > li > ol {
@@ -49,10 +59,17 @@ body > header > ol > li > ol:empty + p {
 }
 
 body > header > ol > li > p {
-    max-height: 0;
     overflow-x: hidden;
     margin-top: 0;
     padding: 0 .5em 0 .5em;
+    -webkit-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: top;
+    -o-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
 }
 
 body > header > ol > li > ol:empty {
@@ -61,8 +78,10 @@ body > header > ol > li > ol:empty {
 
 body > header > ol > li > a:focus + a + ol:not(:empty),
 body > header > ol > li > a:focus + a + ol:empty + p {
-    transition: max-height .2s .2s;
-    max-height: calc(100vh - 3.5em);
+    -webkit-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
 }
 
 body > header > ol > li {
