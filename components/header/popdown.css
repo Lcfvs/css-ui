@@ -1,8 +1,6 @@
-/* {"name":"css-ui","version":"2.2.0","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
+/* {"name":"css-ui","version":"2.2.1","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
 body > header > ol {
-    position: fixed;
-    top: 0;
-    right: 0;
+    float: right;
     height: 100%;
 }
 
@@ -39,9 +37,13 @@ body > header > ol > li > ol:empty + p {
     width: 15em;
     padding-right: 1em;
     max-height: 0;
+    box-sizing: unset;
+    clip: rect(0, calc(100% - 1em), calc(100% - 1em), 0);
+    -ms-clip-path: polygon(0 0, 0 100%, calc(100% - 1em) 100%, calc(100% - 1em) 0);
+    -o-clip-path: polygon(0 0, 0 100%, calc(100% - 1em) 100%, calc(100% - 1em) 0);
+    -webkit-clip-path: polygon(0 0, 0 100%, calc(100% - 1em) 100%, calc(100% - 1em) 0);
     clip-path: polygon(0 0, 0 100%, calc(100% - 1em) 100%, calc(100% - 1em) 0);
     transition: clip-path .2s 0s, padding-right .2s 0s, max-height .2s .2s;
-    box-sizing: content-box;
 }
 
 body > header > ol > li > ol {
@@ -66,6 +68,10 @@ body > header > ol > li > ol:empty {
 
 body > header > ol > li > a:focus + a + ol:not(:empty),
 body > header > ol > li > a:focus + a + ol:empty + p {
+    clip: rect(0, 15em, 15em, 0);
+    -ms-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+    -o-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
     transition: clip-path .2s .4s, padding-right .2s .4s, max-height .2s .2s;
     padding-right: 0;

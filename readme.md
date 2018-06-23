@@ -65,17 +65,17 @@ A pure CSS base to make a responsive user interface.
 
 #### Mini
 ```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.1.4/css-ui/components/menu/mini.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.2.1/css-ui/components/menu/mini.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 #### Expanded
 ```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.1.4/css-ui/components/menu/expanded.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.2.1/css-ui/components/menu/expanded.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 ### Header popdowns
 ```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.1.4/css-ui/components/header/popdown.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.2.1/css-ui/components/header/popdown.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 ## License
@@ -93,7 +93,7 @@ A special thanks to [ascito](https://github.com/ascito) for some improvements. =
 * PC
     * Firefox
     * Chrome
-    * IE 11
+    * IE 10+
     * Edge
     * Opera
     * Yandex
