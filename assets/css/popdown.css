@@ -1,0 +1,107 @@
+/* {"name":"css-ui","version":"2.2.1","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
+body > header > ol {
+    float: right;
+    height: 100%;
+}
+
+body > header > ol > li {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+}
+
+body > header > ol > li > a {
+    position: absolute;
+    display: block;
+    text-align: center;
+    z-index: 1;
+    width: 3em;
+    line-height: 3em;
+    top: 0;
+}
+
+body > header > ol > li > a:first-of-type,
+body > header > ol > li > a:first-of-type:focus + a + ol + p,
+body > header > ol > li > a:first-of-type:focus + a {
+    z-index: 2;
+}
+
+body > header > ol > li > ol,
+body > header > ol > li > ol:empty + p {
+    margin-top: 3em;
+    right: 12em;
+    overflow-x: hidden;
+    overflow-y: auto;
+    line-height: 3em;
+    position: relative;
+    width: 15em;
+    padding-right: 1em;
+    height: 0;
+    max-height: 0;
+    box-sizing: unset;
+    clip: rect(0, calc(100% - 1em), calc(100% - 1em), 0);
+    -ms-clip-path: polygon(0 0, 0 100%, calc(100% - 1em) 100%, calc(100% - 1em) 0);
+    -o-clip-path: polygon(0 0, 0 100%, calc(100% - 1em) 100%, calc(100% - 1em) 0);
+    -webkit-clip-path: polygon(0 0, 0 100%, calc(100% - 1em) 100%, calc(100% - 1em) 0);
+    clip-path: polygon(0 0, 0 100%, calc(100% - 1em) 100%, calc(100% - 1em) 0);
+    transition: clip-path .2s 0s, padding-right .2s 0s, max-height .2s .2s;
+}
+
+body > header > ol > li > ol {
+    text-align: right;
+}
+
+body > header > ol > li > ol > li,
+body > header > ol > li > ol:empty + p {
+    text-align: justify;
+}
+
+body > header > ol > li > p {
+    height: 0;
+    max-height: 0;
+    overflow-x: hidden;
+    margin-top: 0;
+    padding: 0 .5em 0 .5em;
+}
+
+body > header > ol > li > ol:empty {
+    display: none;
+}
+
+body > header > ol > li > a:focus + a + ol:not(:empty),
+body > header > ol > li > a:focus + a + ol:empty + p {
+    clip: rect(0, 15em, 15em, 0);
+    -ms-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+    -o-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+    transition: clip-path .2s .4s, padding-right .2s .4s, max-height .2s .2s;
+    padding-right: 0;
+    height: auto;
+    max-height: calc(100vh - 3.5em);
+}
+
+body > header > ol > li {
+    counter-reset: items;
+}
+
+body > header > ol > li > ol > li {
+    counter-increment: items;
+    padding: 0 .5em 0 .5em;
+}
+
+body > header > ol > li > ol:not(:empty) + p:before {
+    content: counter(items);
+    color: rgba(255, 255, 255, .8);
+    background: rgba(255, 0, 0, 1);
+    font-size: .8em;
+    padding: .3em;
+    line-height: .5em;
+    border-radius: .3em;
+    position: absolute;
+    display: inline-block;
+    vertical-align: super;
+    top: .5em;
+    margin-left: 1.5em;
+    z-index: 2;
+}
