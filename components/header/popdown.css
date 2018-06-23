@@ -1,6 +1,8 @@
-/* {"name":"css-ui","version":"2.1.4","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
+/* {"name":"css-ui","version":"2.2.0","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
 body > header > ol {
-    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
     height: 100%;
 }
 
@@ -28,14 +30,18 @@ body > header > ol > li > a:first-of-type:focus + a {
 
 body > header > ol > li > ol,
 body > header > ol > li > ol:empty + p {
-    width: 15em;
-    max-height: 0;
-    overflow-x: hidden;
-    line-height: 3em;
     margin-top: 3em;
-    position: relative;
     right: 12em;
-    transition: max-height .2s .2s;
+    overflow-x: hidden;
+    overflow-y: auto;
+    line-height: 3em;
+    position: relative;
+    width: 15em;
+    padding-right: 1em;
+    max-height: 0;
+    clip-path: polygon(0 0, 0 100%, calc(100% - 1em) 100%, calc(100% - 1em) 0);
+    transition: clip-path .2s 0s, padding-right .2s 0s, max-height .2s .2s;
+    box-sizing: content-box;
 }
 
 body > header > ol > li > ol {
@@ -60,7 +66,9 @@ body > header > ol > li > ol:empty {
 
 body > header > ol > li > a:focus + a + ol:not(:empty),
 body > header > ol > li > a:focus + a + ol:empty + p {
-    height: auto;
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+    transition: clip-path .2s .4s, padding-right .2s .4s, max-height .2s .2s;
+    padding-right: 0;
     max-height: calc(100vh - 3.5em);
 }
 
