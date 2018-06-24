@@ -44,10 +44,10 @@ body > header > ol > li > ol:empty + p {
     -ms-transform-origin: top;
     -o-transform-origin: top;
     transform-origin: top;
-    transition: -webkit-transform .2s .3s;
-    transition: -ms-transform .2s .3s;
-    transition: -o-transform .2s .3s;
-    transition: transform .2s .3s;
+    transition: -webkit-transform .2s .2s;
+    transition: -ms-transform .2s .2s;
+    transition: -o-transform .2s .2s;
+    transition: transform .2s .2s;
 }
 
 body > header > ol > li > ol {
