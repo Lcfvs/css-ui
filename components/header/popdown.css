@@ -1,4 +1,4 @@
-/* {"name":"css-ui","version":"2.2.7","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
+/* {"name":"css-ui","version":"2.2.8","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
 body > header > ol {
     float: right;
     height: 100%;
@@ -22,14 +22,13 @@ body > header > ol > li > a {
 }
 
 body > header > ol > li > a:first-of-type,
-body > header > ol > li > a:first-of-type:focus + ol + p,
-body > header > ol > li > a:first-of-type:focus + ol + a,
-body > header > ol > li > a:first-of-type:focus + ol + p + a {
+body > header > ol > li > a:first-of-type:focus ~ p,
+body > header > ol > li > a:first-of-type:focus ~ a {
     z-index: 2;
 }
 
 body > header > ol > li > ol,
-body > header > ol > li > ol:empty + p {
+body > header > ol > li > a ~ p {
     width: 15em;
     overflow-x: hidden;
     line-height: 3em;
@@ -56,7 +55,7 @@ body > header > ol > li > ol {
 }
 
 body > header > ol > li > ol > li,
-body > header > ol > li > ol:empty + p {
+body > header > ol > li > a ~ p {
     text-align: justify;
 }
 
@@ -66,13 +65,9 @@ body > header > ol > li > p {
     padding: 0 .5em 0 .5em;
 }
 
-body > header > ol > li > ol:empty,
-body > header > ol > li > ol:not(:empty) + p {
-    height: 0;
-}
-
-body > header > ol > li > a:focus + ol:not(:empty),
-body > header > ol > li > a:focus + ol:empty + p {
+body > header > ol > li > a:focus + p,
+body > header > ol > li > a:focus + ol:empty + p,
+body > header > ol > li > a:focus + ol:not(:empty) {
     max-height: calc(100vh - 3.5em);
     -ms-transform: scaleY(1);
     -o-transform: scaleY(1);
@@ -88,8 +83,7 @@ body > header > ol > li > ol > li {
     counter-increment: items;
 }
 
-body > header > ol > li > a:not(:focus) + ol:not(:empty) + p + a:after,
-body > header > ol > li > a:not(:focus) + ol:not(:empty) + a:after {
+body > header > ol > li > a:not(:focus) + ol:not(:empty) ~ a:after {
     content: '+';
     content: counter(items);
     color: rgba(255, 255, 255, .8);
