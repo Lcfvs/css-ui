@@ -20,11 +20,6 @@ body > header > ol > li > a {
     color: rgba(245, 245, 255, 1);
 }
 
-body > header > ol > li > ol > li > a {
-    display: block;
-    height: 100%;
-}
-
 main > h1 {
     text-align: center;
 }
