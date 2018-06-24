@@ -11,6 +11,11 @@ body > nav > a {
     background: rgba(204, 204, 255, 1);
 }
 
+body > header > ol > li > ol > li > a {
+    display: block;
+    height: 100%;
+}
+
 body > header > ol > li > a + ol,
 body > header > ol > li > a + ol + p {
     background: rgba(255, 255, 181, 1);
