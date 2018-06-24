@@ -16,7 +16,7 @@ body > header > ol > li > a {
 }
 
 body > header > ol > li > a + ol,
-body > header > ol > li > a + ol + p {
+body > header > ol > li > a ~ p {
     background: rgba(255, 255, 181, 1);
 }
 
