@@ -1,2 +1,2 @@
-/* {"name":"css-ui","version":"2.2.3","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
+/* {"name":"css-ui","version":"2.2.4","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
 @media only screen and (min-width:50em){body{width:calc(100vw - 15em);margin-left:15em}body>header>h1{left:1em}body>nav>[tabindex="1"],body>nav>[tabindex="-1"]{display:none}body>nav>[tabindex="1"]+a+ol,body>nav>[tabindex="1"]+a+ol>li>a{width:15em}}
