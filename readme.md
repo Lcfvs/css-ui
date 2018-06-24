@@ -1,6 +1,6 @@
 # css-ui
-[![npm](https://img.shields.io/npm/v/@lcf.vs/css-ui.svg?style=plastic)]()
-[![Downloads](https://img.shields.io/npm/dt/@lcf.vs/css-ui.svg?style=plastic)]()
+[![npm](https://img.shields.io/npm/v/@lcf.vs/css-ui.svg?style=plastic)](https://www.npmjs.com/package/@lcf.vs/css-ui)
+[![Downloads](https://img.shields.io/npm/dt/@lcf.vs/css-ui.svg?style=plastic)](https://www.npmjs.com/package/@lcf.vs/css-ui)
 
 A pure CSS base to make a responsive user interface.
 
