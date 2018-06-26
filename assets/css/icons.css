@@ -1,4 +1,5 @@
 body > header > ol > li > a,
+body > nav > a,
 body > nav > ol > li > a:before {
     font-family: FontAwesome5Free;
 }

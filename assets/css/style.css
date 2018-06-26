@@ -7,7 +7,8 @@ body {
 }
 
 body > header,
-body > nav > a {
+body > nav > a,
+main > section {
     background: rgba(204, 204, 255, 1);
 }
 
@@ -32,7 +33,6 @@ main > h1 {
 
 main > section {
     min-height: 20em;
-    background: rgba(204, 204, 255, 1);
 }
 
 body > nav ol:first-of-type {
@@ -43,13 +43,11 @@ body > nav > ol:first-of-type > li {
     border-bottom: .063em solid rgba(255, 255, 255, .3);
 }
 
-body > nav > ol:first-of-type a,
-body > nav > ol:first-of-type a:before {
+body > nav > ol:first-of-type a {
     color: rgba(204, 204, 255, 1);
 }
 
-body > nav > ol:first-of-type a.current,
-body > nav > ol:first-of-type a.current:before {
+body > nav > ol:first-of-type a.current {
     color: rgba(91, 192, 190, 1);
 }
 
