@@ -23,7 +23,7 @@ A pure CSS base to make a responsive user interface.
 
 ### Using a CDN
 ```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.3.0/css-ui.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.4.0/css-ui.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 ```html
@@ -62,31 +62,7 @@ A pure CSS base to make a responsive user interface.
 
 ## Components
 
-### Menu
-
-#### Mini
-```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.3.0/css-ui/components/menu/mini.min.css" media="screen" rel="stylesheet" /> 
-```
-
-#### Expanded
-```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.3.0/css-ui/components/menu/expanded.min.css" media="screen" rel="stylesheet" /> 
-```
-
-### Header popdowns
-```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.3.0/css-ui/components/header/popdown.min.css" media="screen" rel="stylesheet" /> 
-```
-
-### Main
-
-#### Card
-```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.3.0/css-ui/components/main/card.min.css" media="screen" rel="stylesheet" /> 
-```
-
-
+[Components](./components/#readme)
 
 ## License
 
