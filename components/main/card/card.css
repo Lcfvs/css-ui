@@ -1,4 +1,4 @@
-/* {"name":"css-ui","version":"2.4.1","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
+/* {"name":"css-ui","version":"2.4.0","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
 a > figure:first-child:last-child {
     display: inline-block;
     position: relative;
@@ -10,9 +10,7 @@ a > figure:first-child:last-child {
 a > figure:first-child:last-child img {
     max-width: 100%;
     min-width: 100%;
-    max-height: 100%;
-    min-height: 100%;
-    display: block;
+    display: inline-block;
 }
 
 a > figure:first-child:last-child figcaption {

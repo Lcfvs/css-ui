@@ -3,7 +3,7 @@
 ## CDN
 
 ```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.4.1/css-ui/components/main/card/card.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.4.2/css-ui/components/main/card/card.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 ## Usage
@@ -15,4 +15,17 @@
     <figcaption>Image legend</figcaption>
   </figure>
 </a>
+```
+
+## Custom style
+
+```css
+a > figure:first-child:last-child {
+  height: 20em;
+  width: 20em;
+}
+
+a > figure:first-child:last-child img {
+  max-height: 17em; /* based on your max fig caption height */
+}
 ```

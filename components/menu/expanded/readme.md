@@ -3,7 +3,7 @@
 ## CDN
 
 ```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.4.1/css-ui/components/menu/expanded/expanded.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.4.2/css-ui/components/menu/expanded/expanded.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 ## Usage

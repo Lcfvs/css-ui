@@ -1,2 +1,2 @@
-/* {"name":"css-ui","version":"2.4.1","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
-a>figure:first-child:last-child,a>figure:first-child:last-child img{min-width:100%;display:inline-block}a>figure:first-child:last-child{position:relative;border:.063em solid rgba(0,0,0,1);text-align:center}a>figure:first-child:last-child figcaption{position:absolute;display:block;width:100%;border-top:.063em solid rgba(0,0,0,1);background:rgba(255,255,255,1);bottom:0}
+/* {"name":"css-ui","version":"2.4.2","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
+a>figure:first-child:last-child{display:inline-block;position:relative;border:.063em solid rgba(0,0,0,1);min-width:100%;text-align:center}a>figure:first-child:last-child img{max-width:100%;min-width:100%;display:inline-block}a>figure:first-child:last-child figcaption{position:absolute;display:block;width:100%;border-top:.063em solid rgba(0,0,0,1);background:rgba(255,255,255,1);bottom:0}
