@@ -46,6 +46,14 @@ main > section ol li {
     text-align: center;
 }
 
+main > section a {
+    color: rgba(0, 0, 255, .8);
+}
+
+main > section a:hover {
+    color: rgba(0, 100, 255, .8);
+}
+
 body > nav ol:first-of-type {
     background: rgba(0, 0, 34, 1);
 }
