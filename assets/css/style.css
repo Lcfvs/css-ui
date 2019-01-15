@@ -28,11 +28,22 @@ body > header > ol > li > ol > li > a {
 }
 
 main > h1 {
+    font-size: 2em;
     text-align: center;
 }
 
-main > section {
-    min-height: 20em;
+main > section > h1 {
+    font-weight: bold;
+    text-align: center;
+    background: rgba(255, 255, 255, .8);
+    padding: 1em 0;
+}
+
+main > section ol li {
+    background: rgba(255, 255, 255, .3);
+    margin-top: 1em;
+    padding: 1em 0;
+    text-align: center;
 }
 
 body > nav ol:first-of-type {
