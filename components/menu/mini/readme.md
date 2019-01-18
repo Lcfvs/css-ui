@@ -3,7 +3,7 @@
 ## CDN
 
 ```html
-<link href="https://cdn.rawgit.com/Lcfvs/css-ui/2.4.2/css-ui/components/menu/mini/mini.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://unpkg.com/@lcf.vs/css-ui@2.4.2/css-ui/components/menu/mini/mini.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 ## Usage
