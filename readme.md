@@ -23,7 +23,7 @@ A pure CSS base to make a responsive user interface.
 
 ### Using a CDN
 ```html
-<link href="https://unpkg.com/@lcf.vs/css-ui@2.4.2/css-ui.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://unpkg.com/@lcf.vs/css-ui@2.4.3/css-ui.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 ```html
