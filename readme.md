@@ -39,6 +39,13 @@ A pure CSS base to make a responsive user interface.
         <header>
             <h1>css-ui</h1>
         </header>
+        <main>
+            <h1>css-ui basic layout</h1>
+            <section>
+                <h1>Section title</h1>
+                <p>Section content</p>
+            </section>
+        </main>
         <nav>
             <!--googleoff: anchor-->
             <a href="javascript:" tabindex="1">☰</a>
@@ -48,13 +55,6 @@ A pure CSS base to make a responsive user interface.
                 <li><a href="/">Home</a></li>
             </ol>
         </nav>
-        <main>
-            <h1>css-ui basic layout</h1>
-            <section>
-                <h1>Section title</h1>
-                <p>Section content</p>
-            </section>
-        </main>
     </body>
 </html>
 ```
