@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <title>Demo - css-ui</title>
         <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
-        <link href="https://unpkg.com/@lcf.vs/css-ui@2.2.9/css-ui.min.css" media="screen" rel="stylesheet" />
-        <link href="https://unpkg.com/@lcf.vs/css-ui@2.2.9/components/menu/mini.min.css" media="screen" rel="stylesheet" />
-        <link href="https://unpkg.com/@lcf.vs/css-ui@2.2.9/components/header/popdown.min.css" media="screen" rel="stylesheet" />
+        <link href="https://unpkg.com/@lcf.vs/css-ui@2.2.10/css-ui.min.css" media="screen" rel="stylesheet" />
+        <link href="https://unpkg.com/@lcf.vs/css-ui@2.2.10/components/menu/mini.min.css" media="screen" rel="stylesheet" />
+        <link href="https://unpkg.com/@lcf.vs/css-ui@2.2.10/components/header/popdown.min.css" media="screen" rel="stylesheet" />
         <link href="assets/css/style.css" media="screen" rel="stylesheet" />
         <link href="assets/css/browserstack.css" media="screen" rel="stylesheet" />
     </head>
@@ -38,20 +38,7 @@
             </ol>
             <!--googleon: all-->
         </header>
-        <nav>
-            <!--googleoff: anchor-->
-            <a aria-label="Open menu" href="javascript:" role="button" tabindex="1">☰</a>
-            <a aria-label="Close menu" href="javascript:" role="button" tabindex="-1"></a>
-            <!--googleon: anchor-->
-            <ol>
-                <li><a class="home current" href="#home">Home</a></li>
-                <li><a class="account" href="#account">Account</a></li>
-                <li><a class="musics" href="#musics">Musics</a></li>
-                <li><a class="files" href="#files">Files</a></li>
-                <li><a class="books" href="#books">Books</a></li>
-            </ol>
-        </nav>
-        <main>
+        <main class="home">
             <h1>Demo</h1>
             <section>
                 <h1>No magic!</h1>
@@ -86,6 +73,19 @@
                 </ol>
             </section>
         </main>
+        <nav>
+            <!--googleoff: anchor-->
+            <a aria-label="Open menu" href="javascript:" role="button" tabindex="1">☰</a>
+            <a aria-label="Close menu" href="javascript:" role="button" tabindex="-1"></a>
+            <!--googleon: anchor-->
+            <ol>
+                <li><a class="home" href="#home">Home</a></li>
+                <li><a class="account" href="#account">Account</a></li>
+                <li><a class="musics" href="#musics">Musics</a></li>
+                <li><a class="files" href="#files">Files</a></li>
+                <li><a class="books" href="#books">Books</a></li>
+            </ol>
+        </nav>
         <footer>
             <a href="https://www.browserstack.com">Sponsored by <img alt="Browserstack logo" src="assets/img/Browserstack-logo.svg"></a>
         </footer>
