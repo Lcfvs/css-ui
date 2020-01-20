@@ -3,7 +3,7 @@
 ## CDN
 
 ```html
-<link href="https://unpkg.com/@lcf.vs/css-ui@2.4.3/css-ui/components/menu/mini/mini.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://unpkg.com/@lcf.vs/css-ui@2.4.4/css-ui/components/menu/mini/mini.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 ## Usage
