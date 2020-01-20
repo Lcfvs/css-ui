@@ -1,4 +1,4 @@
-/* {"name":"css-ui","version":"3.0.1","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
+/* {"name":"css-ui","version":"3.0.2","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
 body > header > ol {
   float: right;
   height: 100%
@@ -87,4 +87,11 @@ body > header > ol > li > a:not(:focus) + ol:not(:empty) ~ a::after {
   top: var(--css-ui--padding);
   margin-left: calc(-1 * var(--css-ui--padding));
   z-index: 2
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body > header > ol > li > ol,
+  body > header > ol > li > a ~ p {
+    transition: none
+  }
 }

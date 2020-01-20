@@ -3,7 +3,7 @@
 ## CDN
 
 ```html
-<link href="https://unpkg.com/@lcf.vs/css-ui@3.0.1/css-ui/components/header/popdown/popdown.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://unpkg.com/@lcf.vs/css-ui@3.0.2/css-ui/components/header/popdown/popdown.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 ## Usage
