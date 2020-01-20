@@ -1,12 +1,12 @@
-/* {"name":"css-ui","version":"2.4.4","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
+/* {"name":"css-ui","version":"2.2.9","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
 @media only screen and (min-width: 50em) {
-    body {
-        width: calc(100vw - 3em);
-        margin-left: 3em
-    }
+  body {
+    width: calc(100vw - var(--css-ui--menu--icon-size));
+    margin-left: var(--css-ui--menu--icon-size)
+  }
 
-    body > nav > [tabindex="1"]:not(:focus) + a + ol,
-    body > nav > [tabindex="1"]:not(:focus) + a + ol > li > a {
-        width: 3em
-    }
+  body > nav > [tabindex="1"]:not(:focus) + a + ol,
+  body > nav > [tabindex="1"]:not(:focus) + a + ol > li > a {
+    width: var(--css-ui--menu--icon-size)
+  }
 }
