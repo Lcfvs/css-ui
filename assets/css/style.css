@@ -2,77 +2,41 @@
 @import "./icons.css";
 
 body {
-    font-family: OpenSans, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    background: rgba(245, 245, 255, 1);
-}
-
-body > header,
-body > nav > a,
-main > section {
-    background: rgba(204, 204, 255, 1);
-}
-
-body > header > ol > li > a {
-    color: rgba(245, 245, 255, 1);
-}
-
-body > header > ol > li > a + ol,
-body > header > ol > li > a ~ p {
-    background: rgba(255, 255, 181, 1);
-}
-
-body > header > ol > li > ol > li > a {
-    display: block;
-    height: 100%;
-    padding: 0 .5em;
+  font-family: OpenSans, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background: rgba(245, 245, 255, 1)
 }
 
 main > h1 {
-    font-size: 2em;
-    text-align: center;
+  font-size: 2em;
+  text-align: center
+}
+
+main > section {
+  background: var(--css-ui--header-bg)
 }
 
 main > section > h1 {
-    font-weight: bold;
-    text-align: center;
-    background: rgba(255, 255, 255, .8);
-    padding: 1em 0;
-}
-
-main > section ol li {
-    background: rgba(255, 255, 255, .3);
-    margin-top: 1em;
-    padding: 1em 0;
-    text-align: center;
+  font-weight: bold;
+  text-align: center;
+  background: var(--theme--title-bg);
+  padding: 1em 0
 }
 
 main > section a {
-    color: rgba(0, 0, 255, .8);
+  color: var(--theme--anchor-color)
 }
 
 main > section a:hover {
-    color: rgba(0, 100, 255, .8);
+  color: var(--theme--anchor-hover-color)
 }
 
-body > nav ol:first-of-type {
-    background: rgba(0, 0, 34, 1);
-}
-
-body > nav > ol:first-of-type > li {
-    border-bottom: .063em solid rgba(255, 255, 255, .3);
-}
-
-body > nav > ol:first-of-type a {
-    color: rgba(204, 204, 255, 1);
+main.home > section ol li {
+  background: var(--theme--contents-item-bg);
+  margin-top: 1em;
+  padding: 1em 0;
+  text-align: center
 }
 
 main.home ~ nav .home {
-    color: rgba(91, 192, 190, 1);
-}
-
-@media screen
-and (min-width: 50em) {
-    main > section {
-        width: 20em;
-    }
+  color: var(--theme--menu-current-color)
 }
