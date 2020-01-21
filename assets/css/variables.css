@@ -11,7 +11,7 @@
   --css-ui--header--popdown-counter-bg: rgba(255, 0, 0, 1);
   --css-ui--header--popdown-counter-font-size: .8em;
   --css-ui--header--popdown-counter-padding: .3em;
-  --css-ui--header--popdown-item-bg: rgba(255, 255, 181, 1);
+  --css-ui--header--popdown-item-bg: rgba(255, 255, 255, .7);
   --css-ui--menu--bg: rgba(25, 35, 45, 1);
   --css-ui--menu--border: .063em solid rgba(255, 255, 255, .3);
   --css-ui--menu--color: rgba(255, 255, 255, 1);
