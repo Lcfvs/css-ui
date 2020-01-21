@@ -3,7 +3,7 @@
   --css-ui--font: OpenSans, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   --css-ui--padding: .5em;
   --css-ui--contents-width: 20em;
-  --css-ui--header-bg: rgba(14, 87, 127, 1);
+  --css-ui--header-bg: rgba(166, 38, 57, 1);
   --css-ui--header-height: 3em;
   --css-ui--header--popdown-color: rgba(245, 245, 255, 1);
   --css-ui--header--popdown-width: 15em;
@@ -24,8 +24,8 @@
   --theme--anchor-hover-color: rgba(0, 100, 255, .8);
   --theme--contents-item-bg: rgba(255, 255, 255, .7);
   --theme--contents-item-color: rgba(0, 0, 0, .8);
-  --theme--contents-title-bg: rgba(14, 87, 127, 1);
+  --theme--contents-title-bg: rgba(166, 38, 57, 1);
   --theme--contents-title-color: rgba(255, 255, 255, 1);
-  --theme--menu-current-color: rgba(14, 87, 127, 1);
+  --theme--menu-current-color: rgba(166, 38, 57, 1);
   --theme--title-color: rgba(255, 255, 255, 1);
 }
