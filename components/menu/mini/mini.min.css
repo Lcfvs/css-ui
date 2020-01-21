@@ -1,2 +1,2 @@
-/* {"name":"css-ui","version":"3.0.4","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
+/* {"name":"css-ui","version":"3.0.5","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
 @media only screen and (min-width:50em){body{width:calc(100vw - var(--css-ui--menu--icon-size));margin-left:var(--css-ui--menu--icon-size)}body>nav>[tabindex="1"]:not(:focus)+a+ol,body>nav>[tabindex="1"]:not(:focus)+a+ol>li>a{width:var(--css-ui--menu--icon-size)}}

@@ -23,7 +23,7 @@ A pure CSS base to make a responsive user interface.
 
 ### Using a CDN
 ```html
-<link href="https://unpkg.com/@lcf.vs/css-ui@3.0.4/css-ui.min.css" media="screen" rel="stylesheet" /> 
+<link href="https://unpkg.com/@lcf.vs/css-ui@3.0.5/css-ui.min.css" media="screen" rel="stylesheet" /> 
 ```
 
 ```html
@@ -33,9 +33,9 @@ A pure CSS base to make a responsive user interface.
         <meta charset="UTF-8">
         <title>Basic layout - css-ui</title>
         <link href="assets/css/variables.css" media="screen" rel="stylesheet" />
-        <link href="https://unpkg.com/@lcf.vs/css-ui@3.0.4/css-ui.min.css" media="screen" rel="stylesheet" />
-        <link href="https://unpkg.com/@lcf.vs/css-ui@3.0.4/components/menu/mini/mini.min.css" media="screen" rel="stylesheet" />
-        <link href="https://unpkg.com/@lcf.vs/css-ui@3.0.4/components/header/popdown/popdown.min.css" media="screen" rel="stylesheet" />
+        <link href="https://unpkg.com/@lcf.vs/css-ui@3.0.5/css-ui.min.css" media="screen" rel="stylesheet" />
+        <link href="https://unpkg.com/@lcf.vs/css-ui@3.0.5/components/menu/mini/mini.min.css" media="screen" rel="stylesheet" />
+        <link href="https://unpkg.com/@lcf.vs/css-ui@3.0.5/components/header/popdown/popdown.min.css" media="screen" rel="stylesheet" />
         <link href="assets/css/style.css" media="screen" rel="stylesheet" />
         <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     </head>
