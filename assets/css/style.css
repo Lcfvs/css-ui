@@ -6,6 +6,7 @@ body {
 }
 
 main > h1 {
+  color: var(--theme--title-color);
   font-size: 2em;
   text-align: center
 }
@@ -17,7 +18,7 @@ main > section {
 main > section > h1 {
   font-weight: bold;
   text-align: center;
-  background: var(--theme--title-bg);
+  background: var(--theme--contents-title-bg);
   padding: 1em 0
 }
 
