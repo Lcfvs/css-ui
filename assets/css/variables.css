@@ -1,9 +1,9 @@
 :root {
-  --css-ui--bg: rgba(245, 245, 255, 1);
+  --css-ui--bg: rgba(57, 65, 74, .99);
   --css-ui--font: OpenSans, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   --css-ui--padding: .5em;
   --css-ui--contents-width: 20em;
-  --css-ui--header-bg: rgba(204, 204, 255, 1);
+  --css-ui--header-bg: rgba(14, 87, 127, 1);
   --css-ui--header-height: 3em;
   --css-ui--header--popdown-color: rgba(245, 245, 255, 1);
   --css-ui--header--popdown-width: 15em;
@@ -12,9 +12,9 @@
   --css-ui--header--popdown-counter-font-size: .8em;
   --css-ui--header--popdown-counter-padding: .3em;
   --css-ui--header--popdown-item-bg: rgba(255, 255, 181, 1);
-  --css-ui--menu--bg: rgba(0, 0, 34, 1);
+  --css-ui--menu--bg: rgba(25, 35, 45, 1);
   --css-ui--menu--border: .063em solid rgba(255, 255, 255, .3);
-  --css-ui--menu--color: rgba(204, 204, 255, 1);
+  --css-ui--menu--color: rgba(255, 255, 255, 1);
   --css-ui--menu--icon-font: FontAwesome5Free;
   --css-ui--menu--icon-size: 3em;
   --css-ui--menu--height: 100%;
@@ -22,7 +22,8 @@
   --css-ui--menu--width: 15em;
   --theme--anchor-color: rgba(0, 0, 255, .8);
   --theme--anchor-hover-color: rgba(0, 100, 255, .8);
-  --theme--contents-item-bg: rgba(255, 255, 255, .3);
-  --theme--menu-current-color: rgba(91, 192, 190, 1);
-  --theme--title-bg: rgba(255, 255, 255, .8);
+  --theme--contents-item-bg: rgba(255, 255, 255, .7);
+  --theme--contents-item-color: rgba(0, 0, 0, .8);
+  --theme--menu-current-color: rgba(14, 87, 127, 1);
+  --theme--title-bg: rgba(14, 87, 127, 1);
 }

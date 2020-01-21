@@ -3,7 +3,6 @@
 
 body {
   font-family: OpenSans, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  background: rgba(245, 245, 255, 1)
 }
 
 main > h1 {
@@ -12,7 +11,7 @@ main > h1 {
 }
 
 main > section {
-  background: var(--css-ui--header-bg)
+  background: var(--css-ui--bg)
 }
 
 main > section > h1 {
@@ -32,6 +31,7 @@ main > section a:hover {
 
 main.home > section ol li {
   background: var(--theme--contents-item-bg);
+  color: var(--theme--contents-item-color);
   margin-top: 1em;
   padding: 1em 0;
   text-align: center
