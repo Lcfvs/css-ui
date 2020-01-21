@@ -27,7 +27,19 @@
 }
 
 @font-face{
-    font-family: FontAwesome5Free;
+    font-family: "FontAwesome5Free-Brands";
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/FontAwesome5Free/fa-brands-400.eot);
+    src: url(../fonts/FontAwesome5Free/fa-brands-400.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/FontAwesome5Free/fa-brands-400.woff2) format("woff2"),
+    url(../fonts/FontAwesome5Free/fa-brands-400.woff) format("woff"),
+    url(../fonts/FontAwesome5Free/fa-brands-400.ttf) format("truetype"),
+    url(../fonts/FontAwesome5Free/fa-brands-400.svg#fontawesome) format("svg")
+}
+
+@font-face{
+    font-family: "FontAwesome5Free-Solid";
     font-style: normal;
     font-weight: 900;
     src: url(../fonts/FontAwesome5Free/fa-solid-900.eot);

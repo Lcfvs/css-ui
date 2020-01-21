@@ -1,7 +1,12 @@
 body > header > ol > li > a,
 body > nav > a,
 body > nav > ol > li > a:before {
-    font-family: FontAwesome5Free;
+    font-family: "FontAwesome5Free-Solid";
+}
+
+body > header > ol > li:last-of-type > a {
+    font-family: "FontAwesome5Free-Brands";
+    color: rgba(0, 0, 0, 1)
 }
 
 body > nav .home:before {
