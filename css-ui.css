@@ -1,4 +1,4 @@
-/* {"name":"css-ui","version":"3.0.3","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
+/* {"name":"css-ui","version":"3.0.4","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
 ::after, ::before, a, abbr, acronym, address, article, aside, audio, b, big, blockquote, body, button, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hr, html, i, iframe, img, ins, kbd, label, legend, li, main, mark, menu, nav, object, ol, output, p, pre, progress, q, rt, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, u, ul, var, video {
   font: inherit;
   vertical-align: baseline;
@@ -63,6 +63,7 @@ body > nav {
 body > nav > [tabindex="1"],
 body > nav > [tabindex="-1"] {
   background: var(--css-ui--header-bg);
+  color: var(--css-ui--menu--color);
   position: fixed;
   top: 0;
   display: block;
@@ -83,7 +84,6 @@ body > nav > [tabindex="1"]:focus {
 
 body > nav > [tabindex="1"] + a + ol {
   background: var(--css-ui--menu--bg);
-  color: var(--css-ui--menu--color);
   height: var(--css-ui--menu--height);
   width: 0;
   transition: width .2s .2s

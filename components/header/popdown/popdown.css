@@ -1,4 +1,4 @@
-/* {"name":"css-ui","version":"3.0.3","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
+/* {"name":"css-ui","version":"3.0.4","author":"Lcf.vs <michael.rouges@gmail.com>","license":"MIT"} */
 body > header > ol {
   float: right;
   height: 100%
@@ -52,6 +52,7 @@ body > header > ol > li > a ~ p {
   text-align: justify
 }
 
+body > header > ol > ol li,
 body > header > ol > li > p {
   overflow-x: hidden;
   top: 0;
