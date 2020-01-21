@@ -19,6 +19,7 @@ main > section > h1 {
   font-weight: bold;
   text-align: center;
   background: var(--theme--contents-title-bg);
+  color: var(--theme--contents-title-color);
   padding: 1em 0
 }
 

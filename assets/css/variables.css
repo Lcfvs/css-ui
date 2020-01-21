@@ -25,6 +25,7 @@
   --theme--contents-item-bg: rgba(255, 255, 255, .7);
   --theme--contents-item-color: rgba(0, 0, 0, .8);
   --theme--contents-title-bg: rgba(14, 87, 127, 1);
+  --theme--contents-title-color: rgba(255, 255, 255, 1);
   --theme--menu-current-color: rgba(14, 87, 127, 1);
   --theme--title-color: rgba(255, 255, 255, 1);
 }
