@@ -5,6 +5,10 @@ body {
   font-family: OpenSans, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+body > header > h1 {
+  color: var(--theme--title-color);
+}
+
 main > h1 {
   color: var(--theme--title-color);
   font-size: 2em;
