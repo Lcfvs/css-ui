@@ -21,7 +21,6 @@
 html {
   background: var(--css-ui--bg);
   font-family: var(--css-ui--font);
-  scroll-snap-type: y mandatory;
   height: 100vh;
   font-size: 1em;
   overflow-x: hidden
